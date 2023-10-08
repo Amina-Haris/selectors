@@ -1,0 +1,46 @@
+/*universal*/
+*{
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-align:center;
+}
+/*group*/
+h1,h2{
+    text-transform: uppercase;
+}
+/*attribute*/
+[class="mainhead"]
+{
+    color: white;
+    background-color: rgb(27, 153, 27);
+}
+/*pseudo slectors*/
+button:hover
+{
+    color:blue;
+    background-color: pink;
+}
+.para5::first-letter{
+    color:red;
+}
+input:focus{
+    background-color: cornflowerblue;
+}
+/*nested*/
+div p{
+    background-color: rgb(235, 193, 193)
+}       
+/*adjacent sibiling*/    
+div+h2{
+    background-color: rgb(176, 128, 221);
+}
+/*child*/
+form>label{
+    background-color: aqua;
+}
+/*combined selector with general sibilings*/
+#place3 h2~p {
+    background-color: rgb(237, 120, 144);
+}
+
+    
